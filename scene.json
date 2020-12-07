@@ -1,0 +1,63 @@
+{
+    "display": {
+        "title": "New_Scene",
+        "favicon": "favicon_asset"
+    },
+    "owner": "",
+    "contact": {
+        "name": "author-name",
+        "email": ""
+    },
+    "main": "bin/game.js",
+    "tags": [],
+    "scene": {
+        "parcels": [
+            "150,4"
+        ],
+        "base": "150,4"
+    },
+    "communications": {
+        "type": "webrtc",
+        "signalling": "https://signalling-01.decentraland.org"
+    },
+    "policy": {
+        "contentRating": "E",
+        "fly": true,
+        "voiceEnabled": true,
+        "blacklist": [],
+        "teleportPosition": ""
+    },
+    "source": {
+        "version": 1,
+        "origin": "builder",
+        "projectId": "22ece6e3-4f11-4c92-be77-c79741b19b15",
+        "point": {
+            "x": 0,
+            "y": 0
+        },
+        "rotation": "east",
+        "layout": {
+            "rows": 1,
+            "cols": 1
+        }
+    },
+    "spawnPoints": [
+        {
+            "name": "spawn1",
+            "default": true,
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "cameraTarget": {
+                "x": 8,
+                "y": 1,
+                "z": 8
+            }
+        }
+    ],
+    "requiredPermissions": [
+        "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
+    ]
+}
